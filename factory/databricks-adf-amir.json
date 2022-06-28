@@ -1,0 +1,9 @@
+{
+	"name": "databricks-adf-amir",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f87bc17-c6da-459c-a31d-c4a0fa37e59b",
+		"tenantId": "74e70468-d51b-426b-8f74-34288b04742a"
+	}
+}
