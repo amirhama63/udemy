@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "CovidInstance"
+		},
+		"ls_ablob_covidreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_accountKey": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_properties_typeProperties_url": {
+			"value": "https://covidreportingamirlakeg2.dfs.core.windows.net/"
+		},
+		"tr_ingest_population_properties_typeProperties_scope": {
+			"value": "/subscriptions/a8cc63e8-8094-4fc0-a2d5-be22c6cbc357/resourceGroups/Covid19/providers/Microsoft.Storage/storageAccounts/covidreportingamir"
+		}
+	}
+}
