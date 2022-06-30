@@ -334,7 +334,7 @@
 				],
 				"type": "BlobEventsTrigger",
 				"typeProperties": {
-					"blobPathBeginsWith": "/population/blobs/population_by_*",
+					"blobPathBeginsWith": "/population/blobs/population_by",
 					"ignoreEmptyBlobs": true,
 					"scope": "[parameters('tr_ingest_population_properties_typeProperties_scope')]",
 					"events": [
